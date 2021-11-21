@@ -5,12 +5,12 @@ mc = Minecraft.create()
 
 
 # Меняем позицию игрока
-mc.player.setTilePos(0, 100, 0)
+mc.player.setTilePos(0, 80, 0)
 time.sleep(10)
-mc.player.setTilePos(498, 756, 4094)
+mc.player.setTilePos(498, 80, 4094)
 time.sleep(10)
-mc.player.setTilePos(826, 756, 473)
+mc.player.setTilePos(826, 70, 473)
 time.sleep(10)
-mc.player.setTilePos(56.29, 925, 9320)
+mc.player.setTilePos(56.29, 80, 9320)
 time.sleep(10)
-mc.player.setTilePos(-56.23, 154, 165)
+mc.player.setTilePos(-56.23, 70, 165)
