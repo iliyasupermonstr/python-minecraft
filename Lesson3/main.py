@@ -10,3 +10,5 @@ mc.setBlock(x, y, z, block)
 mc.setBlock(x, y+1, z, block)
 mc.setBlock(x, y+2, z, block)
 mc.setBlock(x, y+3, z, block)
+
+# Hello!
