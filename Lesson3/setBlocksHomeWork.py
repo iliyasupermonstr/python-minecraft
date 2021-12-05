@@ -6,11 +6,13 @@ import mcpi.block as block
 mc = Minecraft.create()
 
 mc.player.setPos(random.randrange(0, 100), random.randrange(100, 180), random.randrange(0, 100))
+
 pos = mc.player.getPos()
 
 x = pos.x
 y = pos.y
 z = pos.z
+
 platformY = y - 5
 
 mc.setBlocks(x - 1, platformY, z - 1, x + 1, platformY + 1, z + 1, block.GRASS)
