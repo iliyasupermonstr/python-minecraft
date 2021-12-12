@@ -9,3 +9,9 @@ z = pos.z                                       #Извлекаем коорди
 
 highest = mc.getHeight(x, z)                    #Самый высокий блок
 mc.postToChat("Высочайший блок на ваших координатах: " + str(highest))
+
+# boolean: true / false
+# int - числа
+# str - строка
+
+mc.postToChat("Игрок над землей: " + str(y > highest))
