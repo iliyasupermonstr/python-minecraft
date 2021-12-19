@@ -17,7 +17,7 @@ z = pos.z                                       #Извлекаем коорди
 
 insideX = buildX < x < buildX + width  #Находится ли игрок внутри по Х
 insideY =buildY < y < buildY + height
-insideZ =buildZ < z < buildX + length
+insideZ =buildZ < z < buildZ + length
 
 inHouse = insideX and insideY and insideZ
 mc.postToChat('Игрок в доме: ' + str(inHouse))
