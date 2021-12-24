@@ -2,9 +2,9 @@ from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 
 
-x = 701
+x = 172
 y = 67
-z = 128
+z = 302
 
 
 # Узнаём id блока в отсеке для подарков
