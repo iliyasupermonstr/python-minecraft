@@ -1,2 +1,1 @@
-mcpi==1.2.0
-requests==2.26.0
+mcpi
